@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.MenuActivity">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:src="@mipmap/main_page_bg"
+        android:scaleType="centerCrop"/>
+    <FrameLayout
+        android:id="@+id/menu_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_margin="4dp"
+            android:showDividers="middle"
+            android:divider="@drawable/menu_buttons_divider_horizontal"
+            >
+            <com.stormarts.infinityquiz.ui.widget.BebasButton
+                android:id="@+id/start_game_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="78sp"
+                android:includeFontPadding="false"
+                android:paddingTop="14dp"
+                android:background="@drawable/menu_start_button"
+                android:text="@string/start"
+                android:letterSpacing="@dimen/bebas_spacing"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                />
+            <com.stormarts.infinityquiz.ui.widget.BebasButton
+                android:id="@+id/leadership_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="78sp"
+                android:enabled="false"
+                android:backgroundTint="@android:color/black"
+                android:includeFontPadding="false"
+                android:paddingTop="14dp"
+                android:background="@drawable/menu_button"
+                android:text="@string/leadership"
+                android:letterSpacing="@dimen/bebas_spacing"
+                android:textAlignment="center"
+                android:textColor="@color/white_disabled"
+                android:textStyle="bold"
+                />
+            <com.stormarts.infinityquiz.ui.widget.BebasButton
+                android:id="@+id/game_store_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="78sp"
+                android:enabled="false"
+                android:backgroundTint="@android:color/black"
+                android:includeFontPadding="false"
+                android:paddingTop="14dp"
+                android:background="@drawable/menu_button"
+                android:text="@string/game_store"
+                android:letterSpacing="@dimen/bebas_spacing"
+                android:textAlignment="center"
+                android:textColor="@color/white_disabled"
+                android:textStyle="bold"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:showDividers="middle"
+                android:divider="@drawable/menu_item_vertical_divider"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <com.stormarts.infinityquiz.ui.widget.BebasButton
+                    android:layout_weight="1"
+                    android:id="@+id/about_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="56sp"
+                    android:includeFontPadding="false"
+                    android:paddingTop="14dp"
+                    android:background="@drawable/menu_button"
+                    android:text="@string/about"
+                    android:letterSpacing="@dimen/bebas_spacing"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    />
+
+                <com.stormarts.infinityquiz.ui.widget.BebasButton
+                    android:layout_weight="1"
+                    android:id="@+id/logout_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="56sp"
+                    android:includeFontPadding="false"
+                    android:paddingTop="14dp"
+                    android:background="@drawable/menu_button"
+                    android:text="@string/log_out"
+                    android:letterSpacing="@dimen/bebas_spacing"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</FrameLayout>

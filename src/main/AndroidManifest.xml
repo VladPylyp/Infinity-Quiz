@@ -1,0 +1,27 @@
+<<<<<<< Original<<<<<<< Original<<<<<<< Original<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+<application>
+    <activity android:name="com.stormarts.infinityquiz.MenuActivity" />
+</application>
+</manifest>
+
+    =======<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+<application>
+    <activity android:name="com.stormarts.infinityquiz.StartActivity" />
+</application>
+</manifest>>>>>>>> Added
+
+    =======<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+<application>
+    <activity android:name="com.stormarts.infinityquiz.ui.activity.SelectLevelActivity" />
+</application>
+</manifest>>>>>>>> Added
+
+    =======<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+<application>
+    <activity android:name="com.stormarts.infinityquiz.GameActivity" />
+</application>
+</manifest>>>>>>>> Added

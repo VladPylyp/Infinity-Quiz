@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "103680519035",
+    "firebase_url": "https://com-stormarts-infinityquiz.firebaseio.com",
+    "project_id": "com-stormarts-infinityquiz",
+    "storage_bucket": "com-stormarts-infinityquiz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103680519035:android:57ef475cc13b8ff4",
+        "android_client_info": {
+          "package_name": "com.stormarts.infinityquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103680519035-106v82lprm6dd0p369jbaugrhpg79ieb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.stormarts.infinityquiz",
+            "certificate_hash": "62f5c3936861dc93c109a81e257fa2481608a736"
+          }
+        },
+        {
+          "client_id": "103680519035-qbppl4sq49pbvkeqjt74eipjkr5k9vi6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP7tSOctwEmOsXtpgMJyf3_w66jAvvGTQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103680519035-qbppl4sq49pbvkeqjt74eipjkr5k9vi6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

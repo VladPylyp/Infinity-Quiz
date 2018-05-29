@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="my_web_client_id" translatable="false">103680519035-qbppl4sq49pbvkeqjt74eipjkr5k9vi6.apps.googleusercontent.com</string>
+    <dimen name="bebas_spacing">-0.05</dimen>
+    <attr name="dp">dp</attr>
+
+</resources>

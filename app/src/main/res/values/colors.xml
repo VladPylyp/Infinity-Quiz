@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black_overlay">#66000000</color>
+
+
+
+    <color name="menu_button_background_color">#7fd10404</color>
+    <color name="menu_button_background_color_clicked">#7f940505</color>
+
+    <color name="menu_button_stroke_color">#ffffff</color>
+    <color name="menu_button_start_background_mid_color">#7f0f1121</color>
+    <color name="menu_button_start_background_mid_color_clicked">#7f0b0c18</color>
+    <color name="menu_button_start_background_end_color">#7fd67610</color>
+    <color name="menu_button_start_background_end_color_clicked">#7f844809</color>
+
+    <color name="level_normal_button_background_mid_color">#7f0f1121</color>
+    <color name="level_normal_button_background_mid_color_clicked">#7f0b0c18</color>
+    <color name="level_normal_button_background_end_color">#7f10d610</color>
+    <color name="level_normal_button_background_end_color_clicked">#7f09840b</color>
+
+    <color name="level_hard_button_background_mid_color">#7f0f1121</color>
+    <color name="level_hard_button_background_mid_color_clicked">#7f0b0c18</color>
+    <color name="level_hard_button_background_end_color">#7fd61a10</color>
+    <color name="level_hard_button_background_end_color_clicked">#7f840909</color>
+
+
+    <color name="hard_buton_color">#960808</color>
+    <color name="normal_button_color">#099921</color>
+
+
+    <color name="white_disabled">#95ffffff</color>
+
+
+
+
+
+
+
+</resources>
